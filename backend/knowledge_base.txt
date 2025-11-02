@@ -1,0 +1,67 @@
+Rent-It Official Knowledge Base
+Welcome to Rent-It! Here you'll find answers to our most frequently asked questions. Our goal is to make your rental experience as smooth and easy as possible.
+
+1. Getting Started
+Q: How do I rent an item?
+A: Renting from us is simple!
+
+Browse: Explore our categories for vehicles, appliances, and more.
+
+Select: Choose the item you want and select your desired rental dates.
+
+Book: Add the item to your cart and proceed to checkout.
+
+Confirm: Fill in your details, complete the payment, and your booking is confirmed!
+
+Q: Do I need an account to rent?
+A: Yes, creating a free account is required. This helps you track your orders, manage your rentals, and makes future bookings faster.
+
+Q: What kind of items can I rent?
+A: We offer a wide variety of items, primarily focusing on vehicles (cars, bikes) and home appliances (speakers, projectors, etc.). You can also add your own items for others to rent!
+
+2. Booking & Payments
+Q: What payment methods do you accept?
+A: We accept all major payment methods, including credit cards, debit cards, UPI, and net banking through our secure Razorpay payment gateway.
+
+Q: Is there a security deposit?
+A: For most high-value items like vehicles, a refundable security deposit is required. The deposit amount is mentioned on the product page and is fully refunded to you after the item is returned in good condition.
+
+Q: How is the total rental price calculated?
+A: The total price is calculated by multiplying the price per day by the number of rental days you select. Any applicable taxes or fees will be clearly displayed at checkout.
+
+Q: Can I cancel my booking?
+A: Yes, you can cancel your booking. Our cancellation policy is as follows:
+
+Full Refund: Cancellations made more than 48 hours before the rental start time.
+
+50% Refund: Cancellations made between 24 to 48 hours before the rental start time.
+
+No Refund: Cancellations made less than 24 hours before the rental start time.
+
+3. Rental Policies
+Q: What is the minimum rental period?
+A: The minimum rental period for all items is 24 hours (1 day).
+
+Q: Can I extend my rental period?
+A: Yes, you can request an extension through your account dashboard, subject to the item's availability. The additional payment will be calculated based on the per-day rate.
+
+Q: What happens if I return an item late?
+A: Late returns will incur a penalty. A late fee, typically equivalent to one day's rental charge, will be applied for every 24-hour period the item is overdue.
+
+4. Item Condition & Damage
+Q: What should I do if I receive a damaged item?
+A: Please inspect the item upon delivery. If you notice any damage, report it to us immediately through our contact page or support email within 2 hours of receiving the item.
+
+Q: What happens if I damage a rented item?
+A: You are responsible for the item during your rental period. If an item is damaged, the repair costs will be deducted from your security deposit. If the damage exceeds the deposit amount, you will be liable for the additional costs.
+
+5. Support & Contact
+Q: How can I contact customer support?
+A: Our team is here to help! For any questions or issues, you can:
+
+Email Us: support@rent-it.com
+
+Check the 'Help' section on our website for more detailed guides.
+
+Q: I can't find the answer to my question.
+A: I'm sorry I couldn't help. For more specific information or assistance with your order, please email our support team at support@rent-it.com, and they will be happy to assist you.

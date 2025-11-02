@@ -1,0 +1,153 @@
+/* --- Base Body Styles --- */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    padding-top: 120px;
+    min-height: 200vh;
+    transition: padding-top 0.4s ease;
+}
+
+/* --- Liquid Glass Navbar Styles --- */
+.floating-navbar {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    max-width: 1200px;
+    z-index: 1050;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: var(--navbar-bg);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+/* --- Scroll-Activated State --- */
+.floating-navbar.scrolled {
+    top: 15px;
+    padding: 8px 20px;
+    background: var(--navbar-bg);
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.15);
+}
+
+/* --- NEW: Alignment Fixes --- */
+.floating-navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-collapse {
+    display: flex !important; /* Force flex display */
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin: 0 auto !important; /* This is the key: centers the nav links */
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevent buttons from shrinking/wrapping */
+}
+/* --- End of Alignment Fixes --- */
+
+
+/* --- Navbar Content Styling --- */
+.navbar-brand {
+    font-weight: 700 !important;
+    font-size: 1.5rem !important;
+    color: var(--text) !important;
+    margin-right: 1rem; /* Add some space between brand and links */
+}
+
+.nav-link {
+    color: var(--text) !important;
+    font-weight: 500;
+    margin: 0 0.25rem;
+    padding: 0.5rem 1rem !important;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    position: relative;
+    white-space: nowrap; /* Prevent link text from wrapping */
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--text) !important;
+    background: rgba(255, 255, 255, 0.06);
+}
+
+/* --- Custom Button Styles --- */
+.btn-outline-dark {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    color: var(--text);
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    transition: all 0.3s ease;
+    white-space: nowrap; /* Prevent button text from wrapping */
+}
+
+.btn-outline-dark:hover {
+    background: var(--text);
+    color: var(--card);
+    border-color: var(--text);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.btn .fa {
+    margin-right: 8px;
+}
+
+/* --- Cart Badge Style --- */
+.cart-badge {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 3px 7px;
+    border-radius: 50%;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1100px) { /* Adjust breakpoint for when menu collapses */
+    .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+    background: var(--navbar-bg);
+        padding: 1rem;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .buttons {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .buttons .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+}

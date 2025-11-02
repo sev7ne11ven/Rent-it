@@ -1,0 +1,278 @@
+[
+  {
+    "id": 1,
+    "image": "images/car1.jpg",
+    "name": "Ji-Wagon-R",
+    "description": "Travel In Comfort",
+    "type": "4-seater",
+    "availableColors": ["Black", "Blue", "White"],
+    "pricePerDay": 700,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for family trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "images/car2.jpg",
+    "name": "Swift Dzire",
+    "description": "Travel In Style",
+    "type": "4-seater",
+    "availableColors": ["Black", "Blue", "White", "Green"],
+    "pricePerDay": 800,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for family trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "images/car3.jpg",
+    "name": "Ertiga",
+    "description": "Travel In Comfort and enjoy the drive",
+    "type": "7-seater",
+    "availableColors": ["Black", "Blue", "White"],
+    "pricePerDay": 1000,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for family trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "images/car4.jpg",
+    "name": "Hycross",
+    "description": "Travel King size",
+    "type": "7-seater",
+    "availableColors": ["Black", "Blue", "White"],
+    "pricePerDay": 1000,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for family trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "images/bike1.jpg",
+    "name": "Bullet 350",
+    "description": "Roam Like King",
+    "type": "2-wheeler, 2-seater",
+    "availableColors": ["Black", "Brown", "Dark Green", "White"],
+    "pricePerDay": 600,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for long trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "images/bike2.jpg",
+    "name": "DIO",
+    "description": "Zoom through the road",
+    "type": "2-wheeler, 2-seater",
+    "availableColors": ["Black", "Brown", "Dark Green", "White", "Orange"],
+    "pricePerDay": 400,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for long trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "images/bike3.jpg",
+    "name": "Activa",
+    "description": "The all-time classic",
+    "type": "2-wheeler, 2-seater",
+    "availableColors": ["Black", "Brown", "Dark Green", "White", "Mix shades"],
+    "pricePerDay": 400,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for long trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "images/bike4.jpg",
+    "name": "Aether",
+    "description": "Go green and silent",
+    "type": "2-wheeler, 2-seater",
+    "availableColors": ["Black", "Brown", "Dark Green", "White"],
+    "pricePerDay": 500,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very comfortable ride, loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for long trips.",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "images/speaker1.jpg",
+    "name": "JBL",
+    "description": "Party mode on",
+    "type": "Party Speaker",
+    "availableColors": ["Black"],
+    "pricePerDay": 600,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very loud speaker loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for vibing",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "images/speaker2.jpg",
+    "name": "JBL with Karaoke",
+    "description": "Let your inner singer out",
+    "type": "Party Speaker",
+    "availableColors": ["Black", "Red"],
+    "pricePerDay": 650,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very loud speaker loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for vibing",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "images/speaker3.jpg",
+    "name": "Sound Plus",
+    "description": "Party on the move",
+    "type": "Portable Party Speaker",
+    "availableColors": ["Black", "Blue"],
+    "pricePerDay": 600,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very loud speaker loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for vibing",
+        "date": "2024-10-12"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "images/speaker4.jpg",
+    "name": "Boat",
+    "description": "Partyyyy",
+    "type": "Party Speaker with Karaoke",
+    "availableColors": ["Black", "Blue"],
+    "pricePerDay": 650,
+    "reviews": [
+      {
+        "username": "Alice",
+        "rating": 4,
+        "comment": "Very loud speaker loved it!",
+        "date": "2024-10-10"
+      },
+      {
+        "username": "Bob",
+        "rating": 5,
+        "comment": "Perfect for vibing",
+        "date": "2024-10-12"
+      }
+    ]
+  }
+]
